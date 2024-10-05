@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Moon Dance", cursive;
+    line-height: 1.6;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('https://zoebakes.com/wp-content/uploads/2018/10/Japanese-Cotton-Cheesecake-ZoeBakes-photos-by-Zoe-Francois-15-of-8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#navbar{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 200px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#logo{
+    width: 12rem;
+}
+.listitem{
+    display: inline-block;
+    margin: 25px 16px;
+}
+.listitem a{
+    color:rgb(168, 52, 52);
+    text-decoration: none;
+
+}
+#navbar h4{
+   margin-right: 100px;
+}
+#navbar h1{
+    margin-left: 100px;
+    color: rgb(182, 8, 8);
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+ }
+.listitem a:hover{
+    color: black;
+    text-underline-position: below;
+}
+#navbar i{
+    color: black;
+}
+#welcome button{
+    padding: 10px 20px;
+    color:rgb(182, 8, 8); 
+    border: 2px solid rgb(182, 8, 8);
+    background: none;
+    margin-left: 47%;
+    margin-top: 20px;
+}
+#welcome h1{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size:5rem;
+}
+.Catalog h2{
+    font-family: "Dancing Script", cursive;
+    margin-top: 120px;
+    text-align: center;
+}.Catalog ul{
+    text-align: center;
+    padding: 10px;
+}
+#cata-container #div1{
+    border-radius: 2px solid red;
+}
+.red-bg{
+    background-color:  rgb(182, 8, 8);
+    list-style: none;
+    width: 280px;
+    height: 451px;
+    margin-top: 20px;
+    margin-left: 140px;
+    color:bisque;
+    
+}
+.red-bg h5{
+    margin-top: 30px;
+}
+.red-bg button{
+    margin-top: 30px;
+    padding: 8px 40px;
+    background:none;
+    border: 2px solid bisque;
+    color: bisque;
+}
+.Catalog #img1{
+    margin-left: 450px;
+    margin-top: -450px;
+}
+.Catalog #img2{
+    margin-left: 690px;
+    margin-top: -225px;
+}
+.Catalog #img3{
+    margin-left: 930px;
+    margin-top: -228px;
+}
+.Catalog #img4{
+    margin-left: 450px;
+    margin-top: 5px;
+}
+.Catalog #img5{
+   margin-left: 690px;
+   margin-top: -227px;
+}
+.Catalog #img6{
+    margin-left: 930px;
+    margin-top: -228px;
+}
+#about h2{
+    font-family: "Dancing Script", cursive;
+  margin-top: 35px;
+  text-align: center;
+}
+#about p{
+    margin-top: 30px;
+    text-align: center;
+}
+#cake h2{
+    color:  rgb(182, 8, 8);
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    margin-top: 20px;
+}
+.special-offer{
+    background-color:  rgb(182, 8, 8);
+    list-style: none;
+    width: 350px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 180px;
+    color:bisque;
+    text-align: center;
+}
+.special-offer #special{
+    font-family: "Dancing Script", cursive;
+    padding: 50px 40px;
+}
+.special-offer button{
+    margin-top: 40px;
+    padding: 10px 40px;
+    background:none;
+    border: 2px solid bisque;
+}
+#cake #special-img{
+        margin-left: 530px;
+        margin-top: -300px;
+}
+#cake h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#Reviews h2{
+    text-align: center;
+    margin-top: 30px;
+}
+#Reviews p{
+    text-align: center;
+}
+#Reviews h3{
+    font-family: "Dancing Script", cursive;
+    color:  rgb(182, 8, 8);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Contact div{
+    margin-left: 50px;
+    background-image: url('https://www.tastingtable.com/img/gallery/12-prepping-tips-you-need-before-you-even-start-to-bake/know-how-to-double-a-recipe-properly-1676705246.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.Contact img{
+    width: 95%;
+    height: 600px;
+}
+.Contact ul{
+    background-color: rgb(182, 8, 8) ;
+    width:350px;
+    height: 400px;
+    margin-left: 730px;
+}
+.Contact h2{
+    color: bisque;
+    font-family: "Dancing Script", cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-red{
+    text-align: center;
+    color: bisque;
+    padding-top: 70px;
+}
+.Contact button{
+    border: 2px solid bisque;
+    padding: 20px 30px;
+    background-color: rgb(182, 8, 8) ;
+    color: bisque;
+    margin-top: 40px;
+}
+#application h2{
+    font-family: "Dancing Script", cursive;
+    margin-top: 50px;
+    text-align: center;
+}
+#application form{
+    text-align: center;
+    margin-top: 50px;
+    border-color: beige;
+}
+.form-contact{
+    background-color:rgb(182, 8, 8) ;
+    height: 500px;
+    margin-left: 38%;
+    margin-top: 30px;
+}
+label {
+    display: inline;
+    margin-top: 5px;
+    color: #555;
+}
+input, select, textarea {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-contact button {
+    width: 85%;
+    padding: 10px;
+    background-color: rgb(182, 8, 8);
+    color:bisque;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form-contact {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 450px;
+}
+
+#footer{
+    background-color: rgb(182, 8, 8);
+    color: bisque;
+    margin-top: 30px;
+}
+#footer a{
+    color: bisque;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family: "Dancing Script", cursive;
+    margin-left: 60px;
+}
+.listitem1{
+    display: inline-block;
+    margin: 25px 16px;
+}
+.listitem1 a{
+    color:rgb(168, 52, 52);
+    text-decoration: none;
+
+}
+#footer i{
+    margin-left: 60px;
+}
